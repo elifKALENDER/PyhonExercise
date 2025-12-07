@@ -1,0 +1,122 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+sdist/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.manifest
+*.spec
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Conda environment
+conda_env/
+*.conda
+*.env
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Pyre / Pytype
+.pyre/
+.pytype/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+pylint.log
+
+# Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+cover/
+
+# Unit test / pytest / nose
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.nbconvert/
+
+# Django / Flask / web
+*.log
+local_settings.py
+db.sqlite3
+instance/
+.webassets-cache
+
+# VSCode
+.vscode/
+
+# -------------------------
+# PyCharm / JetBrains IDE
+# -------------------------
+.idea/
+*.iml
+
+# -------------------------
+# System files
+# -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# -------------------------
+# Logs & temp files
+# -------------------------
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# -------------------------
+# Project specific
+# -------------------------
+# Ignore large datasets or secrets if needed
+data/
+*.sqlite
+*.db
+secrets.json
+.env.local
